@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.margenes {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+@media (max-width: 1279px) {
+    .margenes {
+        margin-left: 2rem;
+        margin-right: 2rem;    
+    }
+}
+
+.navegador {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navegador__titulos {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navegador__links {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.navegador__links:hover {
+    font-weight: bold;
+    color: rgb(58, 165, 42);
+}
+
+.tarjeta {
+    background-color: rgba(181, 181, 181, 0.5);
+    border-radius: 30px;
+}
+
+.tarjeta__foto {
+    max-width: 15rem;
+    border-radius: 100%;
+}
+
+.titulos {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: rgb(58, 165, 42);
+}
+
+.card__titulos {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.card__titulos:hover {
+    color: rgb(58, 165, 42);
+}
+
+.card__imagen {
+    filter: grayscale(1);
+    transition: 0.4s;
+}
+
+.card__imagen:hover {
+    filter: grayscale(0);
+}
+
+.textos {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.bio {
+    width: 15rem;
+}
+
+.bio2 {
+    width: auto;
+}
+
+.bola {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(58, 165, 42);
+    border-radius: 100%;
+}
+
+.minibola {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(58, 165, 42);
+    border-radius: 100%;
+}
+
+.footer__links {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: rgb(58, 165, 42);
+}
+
+.footer__links:hover {
+    color: #2c2c2c;
+}
